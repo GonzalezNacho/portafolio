@@ -265,9 +265,21 @@ html {
 }
 
 .experiencia {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 20px;
+    padding: 20px; 
+}
+
+#experiencia .experiencias {
+    max-width: 800px;
+    padding-bottom: 60px;
+    margin: auto;
+}
+
+.experiencias table {
+    margin: auto;
+}
+
+#experiencia .experiencia .columna-empresa {
+    padding: 30px 60px;
 }
 
 .columna-empleo {
